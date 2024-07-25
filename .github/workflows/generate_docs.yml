@@ -1,4 +1,4 @@
-name: Generate Pitchy Documentation
+name: Generate Dart Documentation
 
 on:
   push:
@@ -23,6 +23,12 @@ jobs:
 
     - name: Install dependencies
       run: flutter pub get
+
+    - name: Install dartdoc
+      run: flutter pub global activate dartdoc
+
+    - name: Add Pub Cache to PATH
+      run: echo "::add-path::${HOME}/.pub-cache/bin"
 
     - name: Generate documentation
       run: dartdoc
