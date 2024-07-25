@@ -1,0 +1,32 @@
+name: Generate Pitchy App Documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Dart
+      uses: dart-lang/setup-dart@v1
+      with:
+        sdk: "stable"  # Utilise la version stable de Dart
+
+    - name: Install dependencies
+      run: dart pub get
+
+    - name: Generate documentation
+      run: dartdoc
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./doc/api  # Le répertoire de sortie par défaut de dartdoc est "doc/api"
+        destination_dir: documentation  # Optionnel : nom du répertoire sur GitHub Pages
