@@ -28,7 +28,7 @@ jobs:
       run: flutter pub global activate dartdoc
 
     - name: Add Pub Cache to PATH
-      run: echo "::add-path::${HOME}/.pub-cache/bin"
+      run: echo "${HOME}/.pub-cache/bin" >> $GITHUB_PATH
 
     - name: Generate documentation
       run: dartdoc
