@@ -3,10 +3,10 @@ name: Generate Dart Documentation
 on:
   push:
     branches:
-      - main  # Spécifiez la branche sur laquelle vous voulez déclencher l'action
+      - main
 
 permissions:
-  contents: write  # Assurez-vous que le token a les permissions nécessaires
+  contents: write
 
 jobs:
   generate-docs:
@@ -37,5 +37,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./doc/api  # Le répertoire de sortie par défaut de dartdoc est "doc/api"
-        destination_dir: documentation  # Optionnel : nom du répertoire sur GitHub Pages
+        publish_dir: ./doc/api  # Le répertoire où se situe la doc Flutter
+        destination_dir: docs  # Nom du répertoire sur GitHub Pages sur la branche gh-pages
