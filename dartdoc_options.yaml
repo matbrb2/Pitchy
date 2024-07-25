@@ -1,0 +1,10 @@
+dartdoc:
+
+  nodoc: ["lib/modules/TestModule/*.dart"]
+  exclude:
+    - lib/modules/TestModule/frequency_mp3.dart
+    - lib/modules/TestModule/vocal.dart
+    - lib/modules/TestModule/recorder.dart
+    - lib/modules/TestModule/toggle.dart
+    - lib/modules/TestModule/pitch_demo.dart
+    - lib/modules/TestModule/**

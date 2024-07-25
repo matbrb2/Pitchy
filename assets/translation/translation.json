@@ -1,0 +1,185 @@
+{
+    "DATA": [{
+            "TAG": "FRENCH",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "French" },
+                { "CODE": "FR", "TRADUCTION": "Français" },
+                { "CODE": "ES", "TRADUCTION": "Francés" }
+            ]
+        },
+        {
+            "TAG": "SETTINGS",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Settings" },
+                { "CODE": "FR", "TRADUCTION": "Paramètres" },
+                { "CODE": "ES", "TRADUCTION": "Configuraciones" }
+            ]
+        },
+        {
+            "TAG": "STATISTICS",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Statistics" },
+                { "CODE": "FR", "TRADUCTION": "Statistiques" },
+                { "CODE": "ES", "TRADUCTION": "Estadísticas" }
+            ]
+        },
+        {
+            "TAG": "TRACKLIST",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Search a track" },
+                { "CODE": "FR", "TRADUCTION": "Rechercher une musique" },
+                { "CODE": "ES", "TRADUCTION": "Buscar une musica" }
+            ]
+        },
+        {
+            "TAG": "GAME",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Game" },
+                { "CODE": "FR", "TRADUCTION": "Jeu" },
+                { "CODE": "ES", "TRADUCTION": "Juego" }
+            ]
+        },
+        {
+            "TAG": "START_GAME",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Start game" },
+                { "CODE": "FR", "TRADUCTION": "Jouer" },
+                { "CODE": "ES", "TRADUCTION": "Jugar" }
+            ]
+        },
+        {
+            "TAG": "STOP_GAME",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Stop game" },
+                { "CODE": "FR", "TRADUCTION": "Arrêter" },
+                { "CODE": "ES", "TRADUCTION": "Dejar" }
+            ]
+        },
+        {
+            "TAG": "PLAY",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Play" },
+                { "CODE": "FR", "TRADUCTION": "Jouer" },
+                { "CODE": "ES", "TRADUCTION": "Jugar" }
+            ]
+        },
+        {
+            "TAG": "PLAY_AGAIN",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Play Again" },
+                { "CODE": "FR", "TRADUCTION": "Rejouer" },
+                { "CODE": "ES", "TRADUCTION": "Jugar" }
+            ]
+        },
+        {
+            "TAG": "NEXT",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Next" },
+                { "CODE": "FR", "TRADUCTION": "Suivant" },
+                { "CODE": "ES", "TRADUCTION": "Siguiente" }
+            ]
+        },
+        {
+            "TAG": "CHOOSE_NOTE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Choose a note" },
+                { "CODE": "FR", "TRADUCTION": "Choisissez une note" },
+                { "CODE": "ES", "TRADUCTION": "Eligir una nota" }
+            ]
+        },
+        {
+            "TAG": "SING_NOTE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Sing this note" },
+                { "CODE": "FR", "TRADUCTION": "Chantez cette note" },
+                { "CODE": "ES", "TRADUCTION": "Canta esta nota" }
+            ]
+        },
+        {
+            "TAG": "ENGLISH",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "English" },
+                { "CODE": "FR", "TRADUCTION": "Anglais" },
+                { "CODE": "ES", "TRADUCTION": "Ingles" }
+            ]
+        },
+        {
+            "TAG": "SPANISH",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Spanish" },
+                { "CODE": "FR", "TRADUCTION": "Espagnol" },
+                { "CODE": "ES", "TRADUCTION": "Espanol" }
+            ]
+        },
+        {
+            "TAG": "COLOR_MODE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Color mode" },
+                { "CODE": "FR", "TRADUCTION": "Mode couleur" },
+                { "CODE": "ES", "TRADUCTION": "Modo con colores" }
+            ]
+        },
+        {
+            "TAG": "SETTINGS_DISPLAY_COLOR",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Display the color of the note when it's played" },
+                { "CODE": "FR", "TRADUCTION": "Afficher la couleur de la note lorsqu'elle est jouée" },
+                { "CODE": "ES", "TRADUCTION": "Mostrar el color de la nota cuando se reproduce" }
+            ]
+        },
+        {
+            "TAG": "VOCAL_MODE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Vocal mode" },
+                { "CODE": "FR", "TRADUCTION": "Mode voix" },
+                { "CODE": "ES", "TRADUCTION": "Modo con voz" }
+            ]
+        },
+        {
+            "TAG": "SETTINGS_VOCAL_MODE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Answer with your voice instead of tapping on the piano" },
+                { "CODE": "FR", "TRADUCTION": "Répondre avec la voix plutôt que de taper sur le piano" },
+                { "CODE": "ES", "TRADUCTION": "Responda con la voz en lugar de tocar el piano." }
+            ]
+        }, {
+            "TAG": "MULTI_TRY_MODE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "Multiple try" },
+                { "CODE": "FR", "TRADUCTION": "Plusieurs essais" },
+                { "CODE": "ES", "TRADUCTION": "Varios intentos" }
+            ]
+        },
+        {
+            "TAG": "SETTINGS_MULTI_TRY_MODE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": "If your answer is wrong, get multiple try until you find it" },
+                { "CODE": "FR", "TRADUCTION": "Si votre réponse est fausse, vous pouvez continuer d'essayer de trouver la note" },
+                { "CODE": "ES", "TRADUCTION": "Si tu respuesta es incorrecta, puedes seguir intentando encontrar la nota." }
+            ]
+        },
+        {
+            "TAG": "GOOD_ANSWER_SENTENCE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": " is a good answer" },
+                { "CODE": "FR", "TRADUCTION": " est la bonne réponse" },
+                { "CODE": "ES", "TRADUCTION": " es la buene respuesta" }
+            ]
+        },
+        {
+            "TAG": "WRONG_ANSWER_SENTENCE",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": " was the correct anwser" },
+                { "CODE": "FR", "TRADUCTION": " était la bonne réponse" },
+                { "CODE": "ES", "TRADUCTION": " es la buena respuesta" }
+            ]
+        }, {
+            "TAG": "IS_A_WRONG_ANSWER",
+            "TRANSLATIONS": [
+                { "CODE": "EN", "TRADUCTION": " is a wrong anwser" },
+                { "CODE": "FR", "TRADUCTION": " est une mauvaise réponse" },
+                { "CODE": "ES", "TRADUCTION": " es una mala respuesta" }
+            ]
+        }
+    ]
+}
