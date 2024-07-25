@@ -33,9 +33,13 @@ jobs:
     - name: Generate documentation
       run: dartdoc
 
+    - name: Move documentation to docs folder
+      run: |
+        mkdir -p docs
+        mv documentation/* docs/
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./doc/api  # Le répertoire où se situe la doc Flutter
-        destination_dir: docs  # Nom du répertoire sur GitHub Pages sur la branche gh-pages
+        github_token: ${{ secrets.GITHUB_TOKEN }} # Le répertoire où se situe la doc Flutter
+        publish_dir: ./docs  # Déploie le contenu dans le répertoire 'docs'
