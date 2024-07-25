@@ -36,13 +36,13 @@ cd ..
 ```
 ### 3. Run the application:
 **For Android**
-   ```bash
+```bash
 flutter run
-   ```
+```
 **For iOS**
-   ```bash
-   flutter run
-   ```
+```bash
+flutter run
+```
 
 ## FAQ
 **Q: What is perfect pitch?**  
