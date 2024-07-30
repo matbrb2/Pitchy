@@ -2,7 +2,7 @@ part of models;
 ///Note is a model for a musical note from chromatic scale
 class Note {
 
-  ///Note name in international naming convention
+  ///COUCOU EPITECH
   final String name;
 
   ///Note name in others languages
